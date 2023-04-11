@@ -1,0 +1,117 @@
+body {background-color: whitesmoke;}
+
+.wrapper01 {
+    top: 50px;
+    left: 50px;
+    position: relative;
+    height: 400px;
+    width: 600px;
+    border: 2px solid grey;
+    background-color: rgb(233,233,223);
+    }
+
+.flag {
+  z-index: 2;
+    width: 600px;
+    opacity: 65%;
+  }
+
+    .rectangle01 {
+      height: 12px;
+      top: 200px;
+      position: relative;
+      background-color: rgb(208, 227, 241);
+      }
+
+    .rectangle02 {
+      height: 20px;
+      top: 210px;
+      position: relative;
+      background-color: rgb(193, 225, 240);
+      }
+
+    .rectangle03 {
+      height: 45px;
+      top: 220px;
+      position: relative;
+      background-color: rgb(175, 212, 238);
+      }
+
+    .rectangle04 {
+      height: 20px;
+      top: 230px;
+      position: relative;
+      background-color: rgb(155, 200, 231);
+      }
+
+    .rectangle05 {
+      height: 12px;
+      top: 240px;
+      position: relative;
+      background-color: rgb(134, 176, 218);
+      }
+
+.sun {
+  z-index: 1;
+      height: 165px;
+      width: 165px;
+      border-radius: 50%;
+      left: 347px;
+      top: -32px;
+      position: relative;
+      background-color: rgb(231, 124, 56);
+      }
+
+ .line {
+     height: 3px;
+     background-color: rgb(231, 124, 56);
+     }
+
+    .line01 {
+      width: 355px;
+      transform: rotate(20deg);
+      position: relative;
+      top: -215px;
+      left: -11px;
+      }
+
+    .line02 {
+      z-index: 3;
+          width: 355px;
+          transform: rotate(-20deg);
+          position: relative;
+          top: -45px;
+          left: -11px;
+          }
+
+    .line03 {
+          width: 98px;
+          transform: rotate(50deg);
+          position: relative;
+          top: -245px;
+          left: 296px;
+          }
+
+    .line04 {
+          width: 64px;
+          transform: rotate(99deg);
+          position: relative;
+          top: -254px;
+          left: 424px;
+          }
+
+    .line05 {
+          width: 113px;
+          transform: rotate(148deg);
+          position: relative;
+          top: -219px;
+          left: 497px;
+          }
+
+    .line06 {
+          width: 81px;
+          transform: rotate(16deg);
+          position: relative;
+          top: -124px;
+          left: 523px;
+          }

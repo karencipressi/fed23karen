@@ -1,0 +1,35 @@
+body {background-color: whitesmoke;}
+
+.wrapper01 {
+    top: 50px;
+    left: 50px;
+    position: relative;
+    height: 400px;
+    width: 600px;
+    border: 1px solid grey;
+    }
+
+.flag {
+    height: 400px;
+    width: 200px;
+}
+
+.flag01 {
+    position: relative;
+    background-color: green;
+}
+
+.flag02 {
+    position: relative;
+    background-color: white;
+    top: -400px;
+    left: 200px;
+}
+
+.flag03 {
+    position: relative;
+    background-color: orange;
+    top: -800px;
+    left: 400px;
+}
+

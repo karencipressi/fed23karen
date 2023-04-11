@@ -1,0 +1,358 @@
+body {background-color: RGB(230, 230, 230);}
+
+.wrapper01 {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  }
+
+.grass {
+  width: 1920px;
+  height: 2px;
+  position: relative;
+  background-color: black;
+  top: 550px;
+  }
+
+/*STELI FIORI*/
+  .stem {
+    width: 3px;
+    height: 164px;
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    top: 387px;
+   } 
+
+.stem01 {
+  left: 500px;
+ } 
+
+.stem02 {
+  left: 756px;
+ }
+
+.stem03 {
+  left: 1000px;
+ } 
+
+.stem04 {
+    height: 207px;
+    left: 1250px;
+    top: 343px;
+ } 
+
+.stem05 {
+  left: 1501px;
+ }
+
+/*FIORI*/
+  .flower {
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    top: 360px;
+  }
+
+/*FIORE 1*/
+.flower01 {
+    width: 42px;
+    height: 42px;
+    left: 480px;
+  }
+
+.part13 {
+  z-index: 1;
+    width: 67px;
+    height: 67px;
+    background-color: black;
+    top: 348px;
+    left: 467.5px;
+    }
+
+.part14 {
+  z-index: 0;
+    width: 79px;
+    height: 79px;
+    background-color: white;
+    top: 342px;
+    left: 461.5px;
+    }
+
+.part15 {
+  z-index: -1;
+    width: 51px;
+    height: 51px;
+    background-color: black;
+    top: 315px;
+    left: 474px;
+    }
+
+.part16 {
+  z-index: -1;
+    width: 51px;
+    height: 51px;
+    background-color: black;
+    top: 395px;
+    left: 474px;
+    }
+
+.part17 {
+  z-index: -1;
+    width: 51px;
+    height: 51px;
+    background-color: black;
+    top: 358px;
+    left: 513px;
+    }
+
+.part18 {
+  z-index: -1;
+    width: 51px;
+    height: 51px;
+    background-color: black;
+    top: 358px;
+    left: 438px;
+    }
+
+/*FIORE 2*/
+.flower02 {
+    width: 18px;
+    height: 18px;
+    left: 742px;
+    top: 373px;
+  }
+
+.rectangle {
+    width: 52px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+  }
+
+.rectangle01 {
+    top: 386px;
+    left: 709px;
+    transform: rotate(-21deg);
+  }
+
+.rectangle02 {
+    top: 355px;
+    left: 737px;
+    transform: rotate(-66deg);
+  }
+
+.rectangle03 {
+    top: 355px;
+    left: 725px;
+    transform: rotate(-113deg);
+  }
+
+.rectangle04 {
+    top: 368px;
+    left: 709px;
+    transform: rotate(-158deg);
+  }
+
+.rectangle05 {
+    top: 368px;
+    left: 755px;
+    transform: rotate(-201deg);
+  }
+
+.rectangle06 {
+    top: 401px;
+    left: 725px;
+    transform: rotate(-246deg);
+  }
+
+.rectangle07 {
+    top: 401px;
+    left: 737px;
+    transform: rotate(-293deg);
+  }
+
+.rectangle08 {
+    top: 386px;
+    left: 755px;
+    transform: rotate(-338deg);
+  }
+
+/*FIORE 3*/
+.flower03 {
+    width: 42px;
+    height: 42px;
+    left: 980px;
+    }
+
+.part08 {
+  z-index: 1;
+    width: 67px;
+    height: 67px;
+    background-color: black;
+    top: 347.5px;
+    left: 967px;
+    }
+
+.part09 {
+  z-index: 0;
+    width: 51px;
+    height: 51px;
+    background-color: white;
+    top: 331px;
+    left: 951px;
+    }
+
+.part10 {
+  z-index: 0;
+    width: 51px;
+    height: 51px;
+    background-color: white;
+    top: 378px;
+    left: 951px;
+    }
+
+.part11 {
+  z-index: 0;
+    width: 51px;
+    height: 51px;
+    background-color: white;
+    top: 331px;
+    left: 999px;
+    }
+
+.part12 {
+  z-index: 0;
+    width: 51px;
+    height: 51px;
+    background-color: white;
+    top: 378px;
+    left: 999px;
+    }
+
+/*FIORE 4*/
+  .flower04 {
+      width: 25px;
+      height: 25px;
+      top: 373px;
+    }
+
+.part01 {
+    top: 420px;
+    left: 1210px;
+  }
+
+.part02 {
+    top: 420px;
+    left: 1270px;
+  }
+
+.part03 {
+    top: 385px;
+    left: 1210px;
+  }
+
+.part04 {
+    top: 385px;
+    left: 1270px;
+  }
+
+.part05 {
+    top: 350px;
+    left: 1210px;
+  }
+
+.part06 {
+    top: 350px;
+    left: 1270px;
+  }
+
+.part07 {
+    top: 325px;
+    left: 1239px;
+  }
+
+.line {
+    background-color: black;
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    left: 1224px;
+  }
+
+.line01 {
+    top: 366px;
+  }
+
+.line02 {
+    top: 401px;
+  }
+
+.line03 {
+    top: 435px;
+  }
+
+/*FIORE 5*/
+.flower05 {
+    width: 47px;
+    height: 47px;
+    left: 1478px;
+  }
+
+.triangle {
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 50px solid black;
+}
+
+.triangle01 {
+    left: 1469px;
+    top: 325px;
+    transform: rotate(-21deg);
+}
+
+.triangle02 {
+    left: 1446px;
+    top: 342px;
+    transform: rotate(-66deg);
+}
+
+.triangle03 {
+    left: 1496px;
+    top: 325px;
+    transform: rotate(21deg);
+}
+
+.triangle04 {
+    left: 1517px;
+    top: 344px;
+    transform: rotate(66deg);
+}
+
+.triangle05 {
+    left: 1446px;
+    top: 374px;
+    transform: rotate(-111deg);
+}
+
+.triangle06 {
+    left: 1517px;
+    top: 374px;
+    transform: rotate(111deg);
+}
+
+.triangle07 {
+    left: 1496px;
+    top: 394px;
+    transform: rotate(156deg);
+}
+
+.triangle08 {
+    left: 1469px;
+    top: 394px;
+    transform: rotate(-156deg);
+}

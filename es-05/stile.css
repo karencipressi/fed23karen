@@ -1,0 +1,280 @@
+body {background-color: RGB(230, 230, 230);}
+
+.foglio {
+  width: 1280px;
+  height: 720px;
+  display: flex;
+/*flex-direction: row;*/
+  justify-content: center;
+  align-items: flex-end; 
+  /*border: 1px solid black;*/
+}
+
+.contenitore1 {
+  width: 735px;
+  height: 656px;
+}
+
+.vela {
+  background-color: black
+}
+
+.veliero {
+  background-color: black
+}
+
+/*VELA DESTRA*/
+.contenitore2 {
+  width: 429px;
+  height: 589px;
+  margin-left: 54px;
+}
+
+.pezzo1SX {
+  width: 17px;
+  height: 583px;
+  margin-left: 90px;
+}
+
+.pezzo2SX {
+  width: 298px;
+  height: 10px;
+  margin-left: 0px;
+  margin-top: -510px;
+  transform:rotate(-30deg);
+}
+
+.pezzo3SX {
+  width: 37px;
+  height: 57px;
+  margin-top: -48px;
+  margin-left: 213px;
+  transform: rotate(-18deg);
+}
+
+.pezzo4SX {
+  width: 53px;
+  height: 24px;
+  margin-top: -36px;
+  margin-left: 165px;
+  transform: rotate(333deg);
+}
+
+.pezzo5SX {
+  width: 89px;
+  height: 180px;
+  margin-top: -28px;
+  margin-left: 185px;
+  transform: rotate(-18deg);
+}
+
+.pezzo6SX {
+  width: 160px;
+  height: 323px;
+  margin-top: -162px;
+  margin-left: 124px;
+  transform: rotate(-30deg);
+}
+
+.pezzo7SX {
+  width: 93px;
+  height: 137px;
+  margin-top: -283px;
+  margin-left: 194px;
+  transform: rotate(-20deg);
+}
+
+.pezzo8SX {
+  width: 231.7px;
+  height: 399px;
+  margin-top: -110px;
+  margin-left: 43px;
+}
+
+.pezzo9SX {
+  width: 92px;
+  height: 137px;
+  margin-top: -283px;
+  margin-left: 194px;
+  transform: rotate(-20deg);
+}
+
+.pezzo10SX {
+  width: 148.5px;
+  height: 205px;
+  margin-top: -81px;
+  margin-left: 224px;
+  transform: rotate(-25deg);
+}
+
+.pezzo11SX {
+  width: 148px;
+  height: 380px;
+  margin-top: -378px;
+  margin-left: 198px;
+  transform: rotate(-24deg);
+}
+
+
+/*VELA SINISTRA*/
+.contenitore3 {
+  width: 258px;
+  height: 500px;
+  margin-top: -510px;
+  margin-left: 476px;
+}
+
+.pezzo1DX {
+  width: 17px;
+  height: 579px;
+  margin-left: 60px;
+}
+
+.pezzo2DX {
+  width: 38px;
+  height: 186px;
+  margin-top: 26px;
+  margin-left: 35px;
+}
+
+.pezzo3DX {
+  width: 155px;
+  height: 268px;
+  margin-top: -81px;
+  margin-left: 35px;
+}
+
+.pezzo4DX {
+  width: 155px;
+  height: 131px;
+  margin-top: -130px;
+  margin-left: 60px;
+}
+
+.pezzo5DX {
+  width: 38px;
+  height: 186px;
+  margin-top: -392px;
+  margin-left: 75px;
+}
+
+.pezzo6DX {
+  width: 38px;
+  height: 186px;
+  margin-top: -212px;
+  margin-left: 112px;
+}
+
+.pezzo7DX {
+  width: 123px;
+  height: 31px;
+  margin-top: -181px;
+  margin-left: 47px;
+  transform:rotate(-31deg);
+}
+
+.pezzo8DX {
+  width: 188px;
+  height: 10px;
+  margin-top: -537px;
+  transform:rotate(-30deg);
+}
+
+.pezzo9DX {
+  width: 15px;
+  height: 120px;
+  margin-top: -57px;
+  margin-left: 164px;
+  transform: rotate(-14deg)
+}
+
+.pezzo10DX {
+  width: 55px;
+  height: 107px;
+  margin-top: -3px;
+  margin-left: 152px;
+  transform: rotate(-15deg);
+}
+
+.pezzo11DX {
+  width: 55px;
+  height: 82px;
+  margin-top: -7px;
+  margin-left: 178px;
+  transform: rotate(-19deg);
+}
+
+.pezzo12DX {
+  width: 76px;
+  height: 137px;
+  margin-top: -6px;
+  margin-left: 199px;
+  transform: rotate(-24deg);
+}
+
+.pezzo13DX {
+    width: 195px;
+    height: 131px;
+    margin-top: -121.5px;
+    margin-left: 35px;
+  }
+
+.pezzo14DX {
+    width: 45px;
+    height: 186px;
+    margin-top: -409.5px;
+    margin-left: 136px;
+    transform: rotate(-14deg);
+  }
+
+.pezzo15DX {
+    width: 38px;
+    height: 186px;
+    margin-top: 14.5px;
+    margin-left: 189px;
+    transform: rotate(-19deg);
+}
+
+/*SCAFO*/
+.contenitore4 {
+  width: 735px;
+  height: 73px;
+}
+
+.scafo1 {
+    width: 640px;
+    height: 45px;
+    margin-top: 3px;
+    margin-left: 63px;
+}
+
+.scafo2 {
+    width: 581px;
+    height: 67px;
+    margin-top: -36px;
+    margin-left: 89px;
+}
+
+.scafo3 {
+    width: 50px;
+    height: 40px;
+    margin-top: -52px;
+    margin-left: 70px;
+    transform: rotate(-40deg);
+}
+
+.scafo4 {
+    width: 125px;
+    height: 10px;
+    margin-top: -65px;
+    margin-left: 0px;
+    transform: rotate(8deg);
+}
+
+.mare {
+  width: 1920px;
+  height: 2px;
+  margin-top: 55px;
+  margin-left: -303px;
+  background-color: black;
+}
